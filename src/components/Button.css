@@ -1,0 +1,53 @@
+:root {
+    --primary: transparent;
+}
+
+.loginBtn {
+    text-decoration: none;
+}
+
+.loginBtn:hover {
+    color: black;
+}
+
+.btn {
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    outline: 1px solid rgb(245,245,245);
+    text-decoration: none;
+}
+
+.btn:hover {
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    background: rgb(255, 255, 255);
+    color: #000000;
+    transition: 250ms;
+}
+
+.btn--primary {
+    background-color: var(--primary);
+    
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.btn--medium {
+    padding: 8px 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn-large {
+    padding: 12px 26px;
+    font-size: 20px;
+    color: #fff;
+}

@@ -1,0 +1,105 @@
+i {
+    margin-right: 5px;
+    background: -webkit-linear-gradient(rgba(45,69,244,1) 0%, rgba(121,69,252,1) 50%, rgba(252,69,214,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    padding: 5px;
+}
+
+.about-header {
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color:  rgb(255, 255, 255);
+    /* background-image: url('./background.jpg'); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    color: rgb(32, 64, 88);
+}
+
+
+
+.about-contentHeader {
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+
+.about-content {
+    height: 600px;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: black;
+    border: 1px solid white;
+    font-family: "Monteserrat", sans-serif;
+    /* background-color: rgb(248,248,255); */
+    background-color:  rgb(222, 222, 231);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.aboutLeft-content{
+    height: 85%;
+    width: 400px;
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: white;
+    border: 1px solid white;
+    margin: 3.5rem;
+    background: rgb(71, 71, 104);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.aboutLeft-content p {
+    flex-direction: column;
+}
+
+.aboutRight-content{
+    height: 85%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: white;
+    border: 1px solid white;
+    margin: 3.5rem;
+    background: rgb(71, 71, 104);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.aboutRight-content ul {
+    list-style-type: square;
+}
+
+.aboutRight-content ul li{
+    padding: 5px;
+    margin-left: 1.2rem;
+}
+
+
+.footer {
+    text-align: right;
+    margin-right: 5px;
+}
+
+.footerContent {
+    color: black;
+    font-weight: bold;
+}
