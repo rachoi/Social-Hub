@@ -1,3 +1,11 @@
+#About
+
+Originally created to practice using React. Utilized firebase for hosting and user authentication. I plan to expand on the project and add features that would allow users to create an account, that account would allow them to compile their social media links onto the account, and the profile will display their social medias. 
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
